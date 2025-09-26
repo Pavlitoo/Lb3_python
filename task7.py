@@ -20,10 +20,10 @@ stocks = [
 
 # Виводимо заголовки таблиці
 print(f"{'Name':<10} {'Shares':>10} {'Price':>10} {'Change':>10}")
-print("-" * 42)
 
 # Виводимо дані про кожну акцію
 for stock in stocks:
+    
     name = f"{stock['name']:<10}"  # вліво, 10 символів
     shares = f"{stock['shares']:>10}"  # вправо, 10 символів
     price = f"{stock['price']:>8.2f}$"  # з символом долара, 2 знаки після коми

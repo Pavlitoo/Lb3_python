@@ -6,7 +6,8 @@
 
 name = "Павло"
 age = 19
+location = "Україна"
 
-message = f"Мене звути {name} і мені {age} років."
+message = f"Мене звути {name} і мені {age} років. \nМісце проживання: {location}."
 
 print(message)
