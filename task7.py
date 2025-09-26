@@ -8,7 +8,6 @@
 - "Change" займав 10 символів, відображався з двома знаками після коми та зі знаком відсотка.
 """
 
-# Дані про акції
 stocks = [
     {"name": "AA", "shares": 100, "price": 9.22, "change": -22.98},
     {"name": "IBM", "shares": 50, "price": 106.28, "change": 15.18},
@@ -27,7 +26,7 @@ print("-" * 42)
 for stock in stocks:
     name = f"{stock['name']:<10}"  # вліво, 10 символів
     shares = f"{stock['shares']:>10}"  # вправо, 10 символів
-    price = f"${stock['price']:>8.2f}"  # з символом долара, 2 знаки після коми
+    price = f"{stock['price']:>8.2f}$"  # з символом долара, 2 знаки після коми
     change = f"{stock['change']:>7.2f}%"  # з знаком відсотка, 2 знаки після коми
     
     print(f"{name} {shares} {price} {change}")

@@ -46,8 +46,8 @@ Lb3/
 
 **Код:**
 ```python
-name = "Олександр"
-age = 25
+name = "Павло"
+age = 19
 message = f"Мене звути {name} і мені {age} років."
 print(message)
 ```
